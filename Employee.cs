@@ -6,7 +6,6 @@ abstract class Employee
     public string EmployeeName;
     public double BasicSalary;
 
-    // Constructor
     public Employee(int id, string name, double salary)
     {
         EmployeeId = id;
@@ -14,10 +13,8 @@ abstract class Employee
         BasicSalary = salary;
     }
 
-    // Abstract Method
     public abstract double CalculateSalary();
 
-    // Common Method
     public void DisplayEmployeeDetails()
     {
         Console.WriteLine("Employee ID   : " + EmployeeId);
