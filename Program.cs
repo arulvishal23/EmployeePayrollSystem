@@ -6,7 +6,6 @@ class Program
     {
         Employee emp;
 
-        // Developer
         emp = new Developer(101, "Arul", 50000, 10000);
 
         Console.WriteLine("===== Developer =====");
@@ -16,7 +15,6 @@ class Program
 
         Console.WriteLine();
 
-        // Manager
         emp = new Manager(102, "John", 70000, 20000);
 
         Console.WriteLine("===== Manager =====");
@@ -26,7 +24,6 @@ class Program
 
         Console.WriteLine();
 
-        // Tester
         emp = new Tester(103, "David", 40000, 5000);
 
         Console.WriteLine("===== Tester =====");
